@@ -1,0 +1,22 @@
+{
+    "45.3.33.132": {
+        "reason": "Ti\u00eau di\u1ec7t th\u1ee7 c\u00f4ng t\u1eeb Radar Aegis",
+        "banned_at": 1784565473.681464,
+        "expires_at": 253402300799
+    },
+    "2a06:98c0:3600::103": {
+        "reason": "Ti\u00eau di\u1ec7t th\u1ee7 c\u00f4ng t\u1eeb Radar Aegis",
+        "banned_at": 1784565484.640491,
+        "expires_at": 1785170284.640462
+    },
+    "64.233.173.145": {
+        "reason": "Ti\u00eau di\u1ec7t th\u1ee7 c\u00f4ng t\u1eeb Radar Aegis",
+        "banned_at": 1784607489.245333,
+        "expires_at": 253402300799
+    },
+    "136.66.254.33": {
+        "reason": "V\u01b0\u1ee3t qu\u00e1 gi\u1edbi h\u1ea1n t\u1ed1c \u0111\u1ed9 y\u00eau c\u1ea7u (DDOS/Spam)",
+        "banned_at": 1785323592.2939057,
+        "expires_at": 1785409992.2939057
+    }
+}

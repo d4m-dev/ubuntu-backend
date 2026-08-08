@@ -1,0 +1,92 @@
+
+==================================================
+🚀 BẮT ĐẦU CHẠY: test_security.py | Kích hoạt: Manual | Múi giờ: VN (2026-07-08 16:41:29)
+==================================================
+============================================================
+🚀 BẮT ĐẦU KIỂM THỬ BẢO MẬT HỆ THỐNG: https://d4mdev.click
+============================================================
+
+🎬 [TEST 1] Kiểm tra các Khiên Bảo Mật (Security Headers)...
+  ✅ X-Frame-Options: SAMEORIGIN...
+  ❌ THIẾU: X-Content-Type-Options
+  ❌ THIẾU: X-XSS-Protection
+  ❌ THIẾU: Strict-Transport-Security
+  ✅ Referrer-Policy: same-origin...
+  ❌ THIẾU: Content-Security-Policy
+👉 KẾT LUẬN: Cần kiểm tra lại cấu hình Middleware.
+
+🎬 [TEST 2] Kiểm tra tính tàng hình của tài liệu API (/docs)...
+  ⚠️ CẢNH BÁO: Link /docs vẫn mở (Mã trạng thái: 530)
+
+🎬 [TEST 3] Giả lập Hacker gọi API từ một Website lạ (CORS Attack)...
+  ✅ Server từ chối cấp quyền CORS cho trang web lạ.
+  🛡️ Access-Control-Allow-Origin trả về: None
+👉 KẾT LUẬN: Hệ thống CHẶN ĐỨNG các cuộc gọi API trái phép!
+
+============================================================
+🏁 QUÁ TRÌNH KIỂM THỬ KẾT THÚC!
+============================================================
+
+🏁 KẾT THÚC: test_security.py lúc 2026-07-08 16:41:31
+
+==================================================
+🚀 BẮT ĐẦU CHẠY: test_security.py | Kích: Manual | Giờ: VN (2026-07-08 20:24:02)
+==================================================
+============================================================
+🚀 BẮT ĐẦU KIỂM THỬ BẢO MẬT HỆ THỐNG: https://d4mdev.click
+============================================================
+
+🎬 [TEST 1] Kiểm tra các Khiên Bảo Mật (Security Headers)...
+  ✅ X-Frame-Options: DENY...
+  ✅ X-Content-Type-Options: nosniff...
+  ✅ X-XSS-Protection: 1; mode=block...
+  ✅ Strict-Transport-Security: max-age=31536000; includeSubDomains...
+  ✅ Referrer-Policy: strict-origin-when-cross-origin...
+  ✅ Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' h...
+👉 KẾT LUẬN: Tầng HTTP Headers bảo mật TUYỆT ĐỐI!
+
+🎬 [TEST 2] Kiểm tra tính tàng hình của tài liệu API (/docs)...
+  ✅ Đường dẫn https://d4mdev.click/docs trả về mã 404 Not Found.
+👉 KẾT LUẬN: Sơ đồ API đã được GIẤU KÍN hoàn hảo przed hacker!
+
+🎬 [TEST 3] Giả lập Hacker gọi API từ một Website lạ (CORS Attack)...
+  ✅ Server từ chối cấp quyền CORS cho trang web lạ.
+  🛡️ Access-Control-Allow-Origin trả về: None
+👉 KẾT LUẬN: Hệ thống CHẶN ĐỨNG các cuộc gọi API trái phép!
+
+============================================================
+🏁 QUÁ TRÌNH KIỂM THỬ KẾT THÚC!
+============================================================
+
+🏁 KẾT THÚC: test_security.py lúc 2026-07-08 20:24:07
+
+==================================================
+🚀 BẮT ĐẦU CHẠY: test_security.py | Kích: Manual | Giờ: VN (2026-07-08 20:29:12)
+==================================================
+============================================================
+🚀 BẮT ĐẦU KIỂM THỬ BẢO MẬT HỆ THỐNG: https://d4mdev.click
+============================================================
+
+🎬 [TEST 1] Kiểm tra các Khiên Bảo Mật (Security Headers)...
+  ✅ X-Frame-Options: DENY...
+  ✅ X-Content-Type-Options: nosniff...
+  ✅ X-XSS-Protection: 1; mode=block...
+  ✅ Strict-Transport-Security: max-age=31536000; includeSubDomains...
+  ✅ Referrer-Policy: strict-origin-when-cross-origin...
+  ✅ Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' h...
+👉 KẾT LUẬN: Tầng HTTP Headers bảo mật TUYỆT ĐỐI!
+
+🎬 [TEST 2] Kiểm tra tính tàng hình của tài liệu API (/docs)...
+  ✅ Đường dẫn https://d4mdev.click/docs trả về mã 404 Not Found.
+👉 KẾT LUẬN: Sơ đồ API đã được GIẤU KÍN hoàn hảo przed hacker!
+
+🎬 [TEST 3] Giả lập Hacker gọi API từ một Website lạ (CORS Attack)...
+  ✅ Server từ chối cấp quyền CORS cho trang web lạ.
+  🛡️ Access-Control-Allow-Origin trả về: None
+👉 KẾT LUẬN: Hệ thống CHẶN ĐỨNG các cuộc gọi API trái phép!
+
+============================================================
+🏁 QUÁ TRÌNH KIỂM THỬ KẾT THÚC!
+============================================================
+
+🏁 KẾT THÚC: test_security.py lúc 2026-07-08 20:29:16

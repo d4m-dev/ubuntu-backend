@@ -1,0 +1,14 @@
+lệnh chạy backend
+bash /sdcard/ubuntu-backend-core/scripts/auto_start.sh
+
+
+đẩy code lên repo
+python3 scripts/deploy.py -y
+
+
+python3 scripts/fcc.py -d avatar_server
+
+
+
+
+

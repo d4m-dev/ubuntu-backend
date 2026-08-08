@@ -1,0 +1,33 @@
+
+==================================================
+🚀 BẮT ĐẦU CHẠY: scan_sizes.py | Kích hoạt: Manual | Múi giờ: VN (2026-07-08 16:42:29)
+==================================================
+=======================================================
+🚀 ĐANG KHỞI ĐỘNG HỆ THỐNG QUÉT VỆ TINH DUNG LƯỢNG FILE
+📂 Thư mục quét: /mnt/sdcard/ubuntu-backend-core
+=======================================================
+✨ Quét thành công 51350 tệp tin!
+📊 Tổng khối lượng: [91m[1m2.23 GB[0m
+📝 Đã xuất báo cáo chi tiết vào file: [92mproject_size_report.txt[0m
+
+🔥 TOP 15 FILE NẶNG NHẤT LÀM NGHẼN ĐƯỜNG TRUYỀN GITHUB:
+---------------------------------------------------------------------------
+01. [93m98.36 MB    [0m -> audio_workspace/music/cuoitet/cuoitet.mp4
+02. [93m78.69 MB    [0m -> audio_workspace/music/coemanhthangdoi/coemanhthangdoi.mp4
+03. [93m74.07 MB    [0m -> audio_workspace/music/chobaolau/chobaolau.mp4
+04. [93m70.52 MB    [0m -> avatar-server-backup.zip
+05. [93m59.69 MB    [0m -> audio_workspace/music/tenayketdoi/tenayketdoi.mp4
+06. [93m50.93 MB    [0m -> audio_workspace/music/roi/roi.mp4
+07. [93m49.27 MB    [0m -> audio_workspace/music/tuemsai/tuemsai.mp4
+08. [93m42.16 MB    [0m -> audio_workspace/music/manhtinhsaidoi/manhtinhsaidoi.mp4
+09. [93m42.14 MB    [0m -> audio_workspace/music/10mat1con0/10mat1con0.mp4
+10. [93m39.52 MB    [0m -> audio_workspace/music/changthecamhoa/changthecamhoa.mp4
+11. [93m38.41 MB    [0m -> audio_workspace/music/thiephongsaiten/thiephongsaiten.mp4
+12. [93m35.68 MB    [0m -> audio_workspace/music/hoa/hoa.mp4
+13. [93m33.61 MB    [0m -> audio_workspace/music/mailacodaucuaanh/mailacodaucuaanh.mp4
+14. [93m33.57 MB    [0m -> audio_workspace/music/roinangcailylen/roinangcailylen.mp4
+15. [93m32.76 MB    [0m -> audio_workspace/music/soichihong/soichihong.mp4
+---------------------------------------------------------------------------
+👉 Hãy mở 'project_size_report.txt' để xem toàn bộ danh sách nhé!
+
+🏁 KẾT THÚC: scan_sizes.py lúc 2026-07-08 16:43:17
